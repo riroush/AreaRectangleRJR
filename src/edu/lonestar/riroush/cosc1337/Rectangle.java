@@ -26,7 +26,7 @@ public class Rectangle {
 		return length;
 	}
 	public double getArea(){
-		return .5 * (width * length);
+		return (width * length);
 	}
 	public String toString(){
 		return String.format("Rectangle width = %f\nRectangle length = %f\nRectangle area = %f", width, length, getArea()); 
